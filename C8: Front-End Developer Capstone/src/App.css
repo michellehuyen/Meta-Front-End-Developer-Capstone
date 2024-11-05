@@ -1,0 +1,68 @@
+section {
+  margin-bottom: 25px;
+}
+
+button {
+  background-color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: 16px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+h1 {
+  color: var(--secondary-color);
+  font-size: 64px;
+}
+
+h1, h2 {
+  font-family: 'Markazi Text';
+  margin: 0;
+}
+
+h3 {
+  font-family: 'Karla';
+  font-size: 20px;
+}
+
+p {
+  font-family: 'Karla';
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 40%;
+  margin-bottom: 40px !important;
+}
+
+.mobileImg { display: none; }
+
+.desktopImg { display: block; }
+
+@media screen and (max-width: 480px) {
+  .mobileImg {
+    width: 190px;
+    height: auto;
+    display: block;
+    border-radius: 0 !important;
+    margin-bottom: 20px;
+    align-self: center;
+  }
+
+  .desktopImg { display: none; }
+
+  .globalGridContainer {
+    width: 100% !important;
+    grid-template-columns: 1fr !important;
+  }
+
+  button {
+    padding: 5px 10px;
+    font-size: 0.8em;
+  }
+
+  #reserveBtn {
+    margin: 20px 0;
+  }
+}

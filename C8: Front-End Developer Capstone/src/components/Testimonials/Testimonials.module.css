@@ -1,0 +1,47 @@
+.testimonials h3 { text-align: center; }
+
+.reviewContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.reviewList {
+    list-style-type: none;
+    border: 1px solid #EDEFEE;
+    border-radius: 16px;
+    padding: 10px;
+    flex: 1;
+    background-color: #EDEFEE;
+
+}
+
+.descriptionContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.textContainer h4 {
+    margin: 10px 0;
+}
+
+.textContainer p {
+    padding: 0;
+}
+
+.textContainer {
+    display: block;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .starIcon {
+        width: 12px;
+        height: 12px;
+    }
+}

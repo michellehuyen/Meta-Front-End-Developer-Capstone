@@ -1,0 +1,23 @@
+.hero {
+    background: var(--primary-color);
+    padding: 20px;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero p {
+    padding-left: 0;
+    padding-top: 0;
+}
+
+.hero img { border-radius: 16px; }
+
+.hero button { margin-top: 40px; }
